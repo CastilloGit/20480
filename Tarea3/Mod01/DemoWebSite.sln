@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DemoWebSite", "DemoWebSite\DemoWebSite.vbproj", "{1166EE85-65E8-4DC7-884C-655F887100FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D83912D4-ABC9-4B3B-BEA4-50A13F2FECFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{752ACB87-2AC3-45D5-B1F4-C6D821F79013}"
+	ProjectSection(SolutionItems) = preProject
+		ContactUsStyles.css = ContactUsStyles.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1166EE85-65E8-4DC7-884C-655F887100FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1166EE85-65E8-4DC7-884C-655F887100FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1166EE85-65E8-4DC7-884C-655F887100FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1166EE85-65E8-4DC7-884C-655F887100FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {502D3944-0203-40AD-A633-64F0FC43DDE4}
+	EndGlobalSection
+EndGlobal
