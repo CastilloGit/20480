@@ -59,7 +59,7 @@ function displaySchedule() {
         }
     }
 }
-
+ 
 function saveStar(sessionId, isStarred) {
     // TODO: Create an XMLHttpRequest that POSTs to "/schedule/star/{sessionId}"
     //       The request body must have the content type "application/x-www-form-urlencoded"
