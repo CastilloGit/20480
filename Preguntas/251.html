@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pregunta 251</title>
+    <style>
+        .multi-column-2
+        {
+            column-count: 2;
+            column-gap: 5px;
+            column-rule-style: double;
+        }
+    </style>
+</head>
+
+<body>
+    <xmp>
+        DRAG DROP
+        
+            You have the following markup.
+            <input type="button" value="oneButton" Target1="Target2(Target3.Target4);" />
+            You need to ensure that when the button is clicked, a message appears that displays the value of the button.
+            
+            How should you complete the code? To answer, drag the appropriate code elements to the correct targets
+            in the answer area. Each code element may be used once, more than once, or not at all. You may need to
+            drag the split bar between panes or scroll to view content.
+
+            Select and place:
+    </xmp>
+<div class="multi-column-2">
+    <lu>Code Elements
+        <li>alert</li>
+        <li>innerHTML</li>
+        <li>onBlur</li>
+        <li>onClick</li>
+        <li>oneButton</li>
+        <li>this</li>
+        <li>value</li>
+    </lu>
+    <lu>Answer area
+        <li>Target1 ···</li>
+        <li>Target2 ···</li>
+        <li>Target3 ···</li>
+        <li>Target4 ···</li>
+    </lu>
+</div>    
+<br>
+<lu><b>Correct answer</b>
+    <li>Target1: onClik</li>
+    <li>Target2: alert</li>
+    <li>Target3: this</li>
+    <li>Target4: value</li>
+</lu>
+
+    <input type="button" value="oneButton" Target1="Target2(Target3.Target4);" onclick="{alert(this.value);}"/>
+</body>
+</html>

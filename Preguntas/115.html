@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pregunta 115</title>
+<head>
+    <script>
+        $(document).ready(function(jQuery){
+            $("#mostrar").on( "click", function() {
+                $('#btnEdit2').show(); //muestro mediante id
+                $('.btnEdit2').show(); //muestro mediante clase
+            });
+            $("#ocultar").on( "click", function() {
+                $('#btnEdit2').hide(); //oculto mediante id
+                $('.btnEdit2').hide(); //muestro mediante clase
+            });
+        });
+            
+        ( document ).ready(function(jQuery) {
+        $('#btnEdit').show();}
+
+    </script>
+</head>
+
+
+<body>
+
+    <button id="btnEdit" style="display: none;">Edit</button>    
+    <button id="btnEdit2">Edit</button>    
+
+<xmp>
+You are creating a page that contains detailed employee information for a company portal. The page uses a
+jQuery library. The page contains a hidden button named btnEdit that is defined by the following code.
+
+<button id="btnEdit" style="display: none;">Edit</button>
+
+The button is not displayed by default.
+The button must be displayed only if the user is logged on.
+You need to add code to the document.ready() function to meet the requirements for the button.
+
+Which line of code should you use?
+
+A. $('#btnEdit').appear();
+B. $('#btnEdit').visible = true;
+C. $('#btnEdit').show();
+D. $('#btnEdit').visible();
+
+</xmp>    
+
+<b>Opción correcta C. $('#btnEdit').show();</b>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Pregunta 132 - Drag and drop</title>
+<head>
+<script>
+
+
+                var myWorker = new Worker('task.js');
+                myWorker.postMessage({message:'go', iterations: 1000000000});
+
+                onmessage = funtcion(event); {
+                    if (event.data.message === 'go')
+                    {
+                        for (var i=0; i<=event.data.iterations; i+=1)
+                        {
+                            var returnValue = i;
+                            alert(returnValue);
+                        }
+                        postMessage(returnValue);
+                    }
+                }
+               
+
+</script>
+</head>
+    <body>
+            <xmp>
+                DRAG DROP
+                You are implementing a web worker by using JavaScript and HTML5. The web worker processes a longrunning loop and returns the result to a webpage.
+                The web worker is defined on the webpage as follows:
+
+                var myWorker = new Worker('task.js');
+                myWorker.postMessage({message:'go', iterations: 1000000000});
+            
+                        You have the following requirements:
+                                Evaluate the message value in the web worker.
+                                Process the loop based on the iterations value that is passed from the webpage.
+                                Return a value back to the webpage from the web worker.
+                                You need to implement the web worker.
+
+                        How should you complete the relevant code? To answer, drag the appropriate code segments to the correct
+                        targets. Each code segment may be used once, more than once, or not at all. You may need to drag the
+                        split bar between panes or scroll to view content.
+            </xmp>
+
+    </body>
+</html>
